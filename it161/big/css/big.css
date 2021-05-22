@@ -1,0 +1,51 @@
+/* Big website* 
+
+html {
+    backgrond-color: #ccc;
+}
+
+main  {
+    background-color: #fff;
+    width:80%
+     margin:auto;
+    border:1px solid black;
+   } 
+     
+   
+
+   h1 a {
+       text-decoration:none;
+   }
+
+   section {
+       float:none;
+       width:100%
+  
+        
+   }
+
+    aside {
+       float:left;
+       width:34%
+   
+   }
+
+   footer{
+       padding:1em;
+       backgroung-color:yellow;
+       texzt-align:center;
+       clear:both;
+   }
+   /* Mobil Styles*/
+   @media all and (max-width:600px);
+   {
+    main  {
+        background-color: #blue;
+        width:100%
+        overflow:auto;
+         
+       } 
+
+   }
+
+ 
